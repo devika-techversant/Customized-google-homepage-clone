@@ -1,0 +1,173 @@
+ *{
+	margin: 0;
+ }
+
+ body{	
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+	background-color: #363636;
+ }
+
+ .navdiv{	
+	display: flex;
+	float: right;
+	font-size: 10px;
+   	justify-content: space-around; 
+   	align-items: center;
+    	margin: 20px;
+ }
+
+ #navdiv1{
+	padding-right:10px;
+ }
+
+ #navdiv2{
+	padding-right:10px;
+ }
+
+ #navdiv3{
+	padding-right:10px;
+ }
+ #navdiv4{
+	padding-right:10px;
+ } 
+
+.mainclass{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+ #googlelogo{
+	align-items: center;
+	margin-top: 100px;
+ }
+
+ .maindiv{
+	display: flex;
+	width:400px;
+	height:30px;
+	margin-top: 30px;
+	background-color:white;
+	border-radius: 30px;
+ 	border:1px solid lightgrey;
+	align-items: center;
+ }
+
+ span{
+	vertical-align: top;
+ }
+
+ span:first-child{
+	width:40px;
+	border-radius: 60px;
+	margin-top: 2px;
+ }
+
+ #inputspan{
+	outline: none;
+	border: none;
+	border-style: none; 
+	border-color: none;
+	overflow: auto; <!--not necessary here-->
+	font-size: 10px;
+	width:340px;
+	height:30px; 
+ }
+
+ input:focus{
+	outline: none;
+ }
+
+ input::placeholder{
+	font-size: 11px;
+ }
+
+ input{
+	height:30px;
+	width:300px;
+	border: none;
+	padding: 0px;
+ }
+
+ span:last-child{
+	border: none;
+	background: none;
+	width:40px;
+	border-radius: 10px;
+	margin-top: 4px;
+ } 
+
+ .voice-search {
+	position: relative;
+	display: inline-block; 
+ }
+  
+ .voice-search-button {
+	background-color: transparent;
+	border: none;
+	cursor: pointer;
+ }
+  
+ .voice-search-button img {
+	width: 18px;
+	height: 22px;
+ }
+
+ .shortcuts{
+	margin-top: 10px;
+ }
+
+ #webstore{
+	padding-bottom: 12px;
+	padding-right: 10px;
+ }
+
+ #jenkins{
+	padding:10px;
+	padding-top:10px;
+ }
+
+ #zendesk{
+	padding:10px;
+ }
+
+ #addshortcut{
+	padding:10px;
+ }
+
+
+ .customizebutton {
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	border: none;
+	outline: none;
+	background-color: transparent; 
+	cursor: pointer;
+ }
+  
+ .customizebutton:hover {
+	opacity: 0.8;
+ }
+ 
+ .customizebutton img {
+	border-radius: 10px;
+	width: 110px;
+ }
+
+
+ a{
+	text-decoration:  none;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+ }
+
+ a:hover{
+	text-decoration: underline;
+ }
+
+  
+
+

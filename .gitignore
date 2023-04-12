@@ -1,0 +1,10 @@
+#This is to ignore hello.txt file
+hello.txt
+
+#This is to ignore hi.txt file
+hi.txt.txt
+
+#This is keep the logs FOLDER & to ignore all its contents
+logs/*
+!.gitkeep
+
