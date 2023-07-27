@@ -66,13 +66,16 @@
  	margin-top: 2px;
  }
 
+ #searchIcon {
+	padding-left: 10px;
+ }
+
  #inputspan {
  	outline: none;
  	border: none;
  	border-style: none;
  	border-color: none;
  	overflow: auto;
- 	< !--not necessary here-->font-size: 10px;
  	width: 340px;
  	height: 30px;
  }
@@ -118,6 +121,10 @@
 
  .shortcuts {
  	margin-top: 10px;
+ }
+
+ .shortcuts a:hover {
+ 	text-decoration: none;
  }
 
  #webstore {
